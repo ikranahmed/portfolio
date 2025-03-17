@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './assets/styles/Header';
-import Footer from './assets/styles/Footer';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Header from './components/Header'; // Corrected path
+import Footer from './components/Footer'; // Corrected path
+import About from './pages/About'; // Corrected path
+import Portfolio from './pages/Portfolio'; // Corrected path
+import Contact from './pages/Contact'; // Corrected path
+import Resume from './pages/Resume'; // Corrected path
 
 export default function App() {
   return (

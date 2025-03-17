@@ -1,17 +1,25 @@
-import { motion } from 'framer-motion';
+import '../assets/styles/About.css';
 
 export default function About() {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
+    <section className="about-section">
       <h2>About Me</h2>
-      <img src="/path/to/your/photo.jpg" alt="Your Name" />
-      <p>  Hi, I'm Ikran Ahmed! I'm a passionate web developer with experience in building modern,
-  responsive, and user-friendly applications. I recently specialize in React, JavaScript, and front-end
-  development. When I'm not designing websites, I enjoy learning new things like food recipes.</p>
-    </motion.section>
+      <div className="about-content">
+        <div className="about-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div className="about-image">
+          <img
+            src="../assets/styles/photo.jpg" // Replace with the path to your photo
+            alt="Your Name"
+          />
+        </div>
+      </div>
+    </section>
   );
 }
