@@ -54,3 +54,11 @@
     color: #333;
     margin-bottom: 1rem;
   }
+
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 5px solid #f1c40f; /* Yellow border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

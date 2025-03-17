@@ -6,7 +6,7 @@ export default function Header() {
       <h1>Ikran Ahmed's Portfolio</h1>
       <nav className="nav">
         <a href="/">Home</a>
-        <a href="/about">About</a>
+      
         <a href="/portfolio">Portfolio</a>
         <a href="/contact">Contact</a>
       </nav>

@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-content">
         <div className="about-image">
           <img
-            src="/images/your-photo.jpg" // Replace with the path to your photo
+            src="/images/me.jpeg" // Replace with the path to your photo
             alt="Your Name"
           />
         </div>
