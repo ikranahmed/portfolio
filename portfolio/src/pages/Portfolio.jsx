@@ -1,11 +1,12 @@
 import React from 'react';
 import '../assets/styles/Portfolio.css';
-
+// import Readmegenerator from '../images/readme-generator.jpg';
 export default function Portfolio() {
   const projects = [
     {
       title: 'README Generator',
       image: '../images/readme-generator.jpg', // Readme Photo
+      // image: Readmegenerator, // Readme Photo
       liveDemo: 'https://www.loom.com/share/8153910e669c466aaea73660cc237c71?sid=d7d1262b-6ed5-47c1-a5dd-2dc5f6d5083dLinks', // Replace with your live demo link
       githubRepo: 'https://github.com/ikranahmed/readmegenerator/tree/main', // GitHub repo link
     },
@@ -31,7 +32,7 @@ export default function Portfolio() {
 
   return (
     <section className="portfolio-section">
-      <h2>Portfolio</h2>
+      <h2>Work</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
           <div key={index} className="project-box">
