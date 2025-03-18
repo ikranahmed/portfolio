@@ -6,9 +6,8 @@ export default function Footer() {
       <div className="footer-content">
         <p>© 2024 Ikran Ahmed. All rights reserved.</p>
         <div className="footer-links">
-          <a href="https://github.com/yourusername">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-          <a href="https://stackoverflow.com/users/yourusername">Stack Overflow</a>
+          <a href="https://github.com/ikranahmed">GitHub</a>
+          <a href="https://www.linkedin.com/in/ikranahmed/">LinkedIn</a>
         </div>
       </div>
     </footer>

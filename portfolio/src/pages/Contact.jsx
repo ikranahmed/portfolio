@@ -13,10 +13,10 @@ export default function Contact() {
         </div>
         <div className="contact-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            I’d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about design and front-end development, feel free to reach out. 
           </p>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I’m always open to new opportunities and connecting with like-minded creatives. Let’s create something great together!
           </p>
         </div>
         <Link to="/" className="home-button">
