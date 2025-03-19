@@ -1,13 +1,13 @@
 /* Contact Section */
+/* Contact Section */
 .contact-section {
     padding: 2rem;
-    padding-top: 6rem; /* Add padding to push content down */
     text-align: center;
     background-color: #f4f4f4;
     min-height: 100vh; /* Ensure the section takes up the full viewport height */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Center content vertically */
     align-items: center;
   }
   
@@ -21,7 +21,7 @@
     max-width: 800px;
     width: 100%;
     background-color: white;
-    padding: 2rem;
+    padding: 10rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
