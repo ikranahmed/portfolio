@@ -1,0 +1,119 @@
+
+.portfolio-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .portfolio-section h2 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Projects Container */
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  /* Project Box */
+  .project-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Glowing Effect */
+  .project-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #fbc2eb, #fad0c4, #ff9a9e);
+    background-size: 400% 400%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+  
+  .project-box:hover::before {
+    opacity: 0.8;
+    animation: glow 10s ease infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Project Image */
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #a6c1ee; /* Light blue border */
+  }
+  
+  /* Project Title */
+  .project-box h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  /* Project Buttons */
+  .project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .demo-button,
+  .github-button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .demo-button {
+    background-color: #a6c1ee; /* Light blue */
+    color: #2c3e50;
+  }
+  
+  .demo-button:hover {
+    background-color: #fbc2eb; /* Light pink */
+    color: white;
+  }
+  
+  .github-button {
+    background-color: #2c3e50; /* Dark blue-gray */
+    color: white;
+  }
+  
+  .github-button:hover {
+    background-color: #34495e; /* Darker blue-gray */
+    color: #a6c1ee; /* Light blue */
+  }
